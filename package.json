@@ -1,0 +1,42 @@
+{
+  "name": "simple-app",
+  "version": "1.0.0",
+  "description": "Simple App Plugin",
+  "author": "Grafana Labs",
+  "license": "Apache-2.0",
+  "scripts": {
+    "build": "grafana-toolkit plugin:build --coverage",
+    "prebuild": "yarn eslint:fix",
+    "test": "grafana-toolkit plugin:test --coverage",
+    "dev": "grafana-toolkit plugin:dev",
+    "watch": "grafana-toolkit plugin:dev --watch",
+    "start": "yarn watch",
+    "test:accessibility": "pa11y-ci --config .pa11yci.json",
+    "eslint:fix": "eslint --fix --ext .js,.jsx,.ts,.tsx src "
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.6.2",
+    "@antv/g6": "^4.3.4",
+    "@grafana/data": "7.5.10",
+    "@grafana/runtime": "^7.5.10",
+    "@grafana/ui": "7.5.10",
+    "antd": "^4.12.3",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "moment-timezone": "0.5.28",
+    "@types/lodash": "^4.14.171"
+  },
+  "devDependencies": {
+    "@grafana/toolkit": "7.5.10",
+    "@types/react-redux": "^7.1.25",
+    "@types/react-router-dom": "^5.3.3",
+    "@types/moment-timezone": "0.5.13",
+    "eslint-plugin-react-hooks": "4.0.8",
+    "jest-sonar-reporter": "^2.0.0"
+  },
+  "jestSonar": {
+    "reportPath": "coverage",
+    "reportFile": "sonar-report.xml",
+    "indent": 4
+  }
+}
