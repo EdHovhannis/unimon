@@ -17,7 +17,7 @@
   "dependencies": {
     "@ant-design/icons": "^4.6.2",
     "@antv/g6": "^4.3.4",
-    "@grafana/data": "7.5.10",
+    "@grafana/data": "7.5.14",
     "@grafana/runtime": "^7.5.10",
     "@grafana/ui": "7.5.10",
     "antd": "^4.12.3",
