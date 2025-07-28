@@ -38,7 +38,7 @@
     "uplot": "1.6.31",
     "moment": "2.29.4",
     "xss": "1.0.10",
-    "@braintree/sanitize-url": "6.0.0",
+    "@braintree/sanitize-url": "6.0.1",
     "d3-color": "3.1.0",
     "marked": "4.0.10"
   },
