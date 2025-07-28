@@ -34,6 +34,14 @@
     "eslint-plugin-react-hooks": "4.0.8",
     "jest-sonar-reporter": "^2.0.0"
   },
+  "resolutions": {
+    "uplot": "1.6.31",
+    "moment": "2.29.4",
+    "xss": "1.0.10",
+    "@braintree/sanitize-url": "6.0.0",
+    "d3-color": "3.1.0",
+    "marked": "4.0.10"
+  },
   "jestSonar": {
     "reportPath": "coverage",
     "reportFile": "sonar-report.xml",
